@@ -15,7 +15,7 @@ def generate_fall_data(num_samples, window_size):
         fall_segment[window_size//2:] = np.random.normal(loc=[0, 0, 0], scale=[10, 10, 10], size=(window_size//2, num_features))
         labels = np.ones(window_size)  # Label 1 for falls
         data.append(np.column_stack((fall_segment, labels)))
-    return np.vstack(data)
+    return np.vstack(data) 
 
 def generate_activity_data(num_samples, window_size):
     """Generate synthetic gyroscope data for normal activities."""

@@ -13,7 +13,7 @@ class FallDetectionApp(QMainWindow):
         super().__init__()
 
         # Set up the main window
-        self.setWindowTitle("Fall Detection")
+        self.setWindowTitle("Fall Detection UI")
         self.setGeometry(100, 100, 300, 200)
 
         # Create a central widget and set layout

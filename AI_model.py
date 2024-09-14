@@ -16,7 +16,7 @@ def preprocess_data(data):
     # Example: Normalize and segment data
     return data
 
-data = pd.read_csv('fall_detection_dataset.csv')  # Load your dataset
+data = pd.read_csv('fall_detection_dataset_realistic.csv')  # Load your dataset
 X = preprocess_data(data[['gyro_x', 'gyro_y', 'gyro_z']])
 y = data['label']  # Labels: 'fall' or 'no fall'
 
