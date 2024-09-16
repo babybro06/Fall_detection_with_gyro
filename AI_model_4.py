@@ -87,7 +87,7 @@ def create_model(trial):
     model = Model(inputs=input_layer, outputs=output_layer)
 
     # Compile the model
-    model.compile(optimizer=Nadam(learning_rate=0.001), loss='binary_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=Nadam(learning_rate=0.002), loss='binary_crossentropy', metrics=['accuracy'])
 
     return model
 
