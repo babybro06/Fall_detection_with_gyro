@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLi
 
 # Load the trained model and scaler
 rf_model = joblib.load('random_forest_model.pkl')
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('scaler5.pkl')
 
 
 class FallDetectionApp(QMainWindow):
