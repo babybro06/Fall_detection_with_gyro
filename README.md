@@ -70,7 +70,7 @@ The model is evaluated on both training and testing datasets. The following metr
 
 ## Results
 
-- **Test Accuracy**: ~xx%
+- **Test Accuracy**: 90%
 - **Confusion Matrix**: Plots the actual vs predicted outcomes.
 - **Training Loss and Accuracy Plots**: Visualize how the model improved over time during training.
 
