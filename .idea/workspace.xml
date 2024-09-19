@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a217caa6-790f-4c18-ac7c-f815226acb6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Read_me.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_cnn_lstm_attention_model4.h5" beforeDir="false" afterPath="$PROJECT_DIR$/best_cnn_lstm_attention_model4.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confusion_Matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Confusion_Matrix.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AI_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AI_model5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AI_model_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AI_model_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AI_model_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_generator_second_version.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vedant799/Documents/GitHub/Fall_detection_with_gyro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AI_model.executor": "Run",
+    "Python.AI_model5.executor": "Run",
+    "Python.AI_model_2.executor": "Run",
+    "Python.AI_model_3.executor": "Run",
+    "Python.AI_model_4.executor": "Run",
+    "Python.Read_me.executor": "Run",
+    "Python.data_generator.executor": "Run",
+    "Python.data_generator_second_version.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vedant799/Documents/GitHub/Fall_detection_with_gyro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +82,9 @@
       <workItem from="1725055583977" duration="2432000" />
       <workItem from="1726259507785" duration="19525000" />
       <workItem from="1726655434015" duration="1872000" />
-      <workItem from="1726675027628" duration="1737000" />
+      <workItem from="1726675027628" duration="2073000" />
+      <workItem from="1726756448076" duration="6023000" />
+      <workItem from="1726783115333" duration="356000" />
     </task>
     <servers />
   </component>
@@ -107,7 +111,7 @@
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model.coverage" NAME="AI_model Coverage Results" MODIFIED="1726300847950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model_4.coverage" NAME="AI_model_4 Coverage Results" MODIFIED="1726655497808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$data_generator_second_version.coverage" NAME="data_generator_second_version Coverage Results" MODIFIED="1726298653311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model5.coverage" NAME="AI_model5 Coverage Results" MODIFIED="1726675401553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model5.coverage" NAME="AI_model5 Coverage Results" MODIFIED="1726766213301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model_2.coverage" NAME="AI_model_2 Coverage Results" MODIFIED="1726314521159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$data_generator.coverage" NAME="data_generator Coverage Results" MODIFIED="1725104114548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/Fall_detection_with_gyro$AI_model_3.coverage" NAME="AI_model_3 Coverage Results" MODIFIED="1726318117478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
