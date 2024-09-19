@@ -11,12 +11,12 @@ This project focuses on detecting falls using data from a gyroscope sensor. By c
 - **Model Architecture**: A hybrid model combining CNN, LSTM, and Attention mechanisms to capture spatial and temporal dependencies.
 - **Hyperparameter Tuning**: The model uses **Optuna** for efficient hyperparameter optimization.
 - **Performance Evaluation**: The system provides evaluation metrics like accuracy, precision, recall, and F1 score, along with confusion matrix visualizations.
-- **Graphical User Interface (GUI)**: A simple Tkinter-based interface allows users to input gyroscope data and get predictions on whether a fall occurred or not.
+- **Graphical User Interface (GUI)**: A simple PyQt5.QtWidgets-based interface allows users to input gyroscope data and get predictions on whether a fall occurred or not.
 
 ## Requirements
 
 - Python 3.x
-- Required Python packages: `tensorflow`, `sklearn`, `matplotlib`, `seaborn`, `pandas`, `numpy`, `optuna`, `tkinter`
+- Required Python packages: `tensorflow`, `sklearn`, `matplotlib`, `seaborn`, `pandas`, `numpy`, `optuna`, `PyQt5.QtWidgets`
 
 Install dependencies:
 \`\`\`bash
@@ -26,14 +26,14 @@ pip install -r requirements.txt
 ## Project Files
 
 - **AI_model5.py**: Contains the code to preprocess the data, build the CNN-LSTM model, and train it.
-- **UI_try_2_code.py**: A Tkinter-based user interface for live predictions using the trained model.
+- **UI_try_2_code.py**: A PyQt5.QtWidgets-based user interface for live predictions using the trained model.
 - **fall_detection_dataset_realistic.csv**: The dataset containing gyroscope sensor readings with labeled events (fall or no fall).
 - **random_forest_model.pkl / best_cnn_lstm_attention_model.h5**: Pretrained models for fall detection.
 - **scaler5.pkl**: StandardScaler object to standardize incoming data for prediction.
 
 ## How to Run
 
-1. **Train the model**: You can train the CNN-LSTM-Attention model using the \`fall_detection_model.py\` script. Ensure the dataset is available, and the model will be saved after training.
+1. **Train the model**: You can train the CNN-LSTM-Attention model using the \`AI_model5.py.py\` script. Ensure the dataset is available, and the model will be saved after training.
 
 \`\`\`bash
 python AI_model5.py
@@ -72,7 +72,7 @@ The model is evaluated on both training and testing datasets. The following metr
 
 ## Results
 
-- **Test Accuracy**: ~xx%
+- **Test Accuracy**: 90%
 - **Confusion Matrix**: Plots the actual vs predicted outcomes.
 - **Training Loss and Accuracy Plots**: Visualize how the model improved over time during training.
 
